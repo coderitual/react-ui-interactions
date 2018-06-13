@@ -149,7 +149,7 @@ const createCancelToken = () => {
 };
 ```
 
-We managed to fulfill 2 requirements:
-* Stopped calling `setState` after component unmounted.
-* Prevent all later actions to be processed (transaction).
+#### We managed to fulfill 2 requirements:
+* **Stop calling `setState` after component unmounts.**
+* **Prevent all later async actions to be processed (transaction).**
 
