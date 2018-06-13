@@ -71,7 +71,7 @@ componentWillUnmount() {
 }
 ```
 
-This is quite simple, but has also big drawback. Even we don't call `setState()` after unmounting, all async actions are being processed. We could put the second fetch into conditional clause but this way we end up with the code which will look like callback hell.
+This looks trivial but also has a big drawback. Even we don't call `setState()` after unmounting, all async actions are being processed. We could put the second fetch into conditional clause but this way we end up with the code which will look like callback hell.
 
 
 `📁 Home.jsx`
@@ -98,7 +98,7 @@ componentWillUnmount() {
 }
 ```
 ### Cancel Token
-Second solution is so called `Cancel Token`. The idea is to have a structure which will throw an exception if any action is performed after unmounting and thus to cancel functions which are not yet processed.
+Second solution is so called `Cancel Token`. The idea is to have a structure which will throw an exception if any action is performed after unmounting. This results in cancelling functions which are not yet processed.
 
 `📁 Home.jsx`
 ```js
