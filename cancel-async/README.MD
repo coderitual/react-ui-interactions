@@ -130,7 +130,7 @@ Second solution is so called `Cancel Token`. The idea is to have a structure whi
   
   Implementation of `CancelToken` might look like this.
 
-`📁 CancelToken`
+`📁 CancelToken.js`
 ```js
 const createCancelToken = () => {
   let cancelled = false;
@@ -150,6 +150,6 @@ const createCancelToken = () => {
 ```
 
 We managed to fulfill 2 requirements:
-✔️ Stopped calling `setState` after component unmounted.
-✔️ Prevent all later actions to be processed (transaction).
+* Stopped calling `setState` after component unmounted.
+* Prevent all later actions to be processed (transaction).
 
