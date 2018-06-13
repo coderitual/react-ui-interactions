@@ -2,7 +2,7 @@
 ## What
 This pattern describes use case where we want to avoid calling `setState()` after a component has unmounted. It happens usually when asynchronous action haven't finished before we destroy component eg. leave particular page.
  
-## Case
+## Example
 Given we have 2 components representing pages. `Home` and `About`. Visiting `Home` page causes data to be fetched on the very begining. Normally we're hydrating component with data in `componentDidMount` method.
 
 ```js
