@@ -1,8 +1,8 @@
 # Cancel Async
-## What
+## 🤔 What
 This pattern describes use case where we want to avoid calling `setState()` after a component has unmounted. It happens usually when asynchronous action haven't finished before we destroy component eg. leaving a page.
  
-## Example
+## 🎬 Example
 Given we have 2 components representing pages. `Home` and `About`. Visiting `Home` page causes data to be fetched on the very begining. Normally we're hydrating component with data in `componentDidMount` method.
 
 `📁 Home.jsx`
@@ -42,13 +42,14 @@ export default Home;
 ```
 
 What will happen if fetching data takes long time and in the meanwhile we will change the view?
+
 ![Unmounted](media/unmounted.gif)
 
 We get warning:
 
 `Warning: setState(...): Can only update a mounted or mounting component. This usually means you called setState() on an unmounted component. This is a no-op. Please check the code for the Home component.`
 
-## Patterns
+## 🔨 Patterns
 ### Mounted Flag
 First solution is quite simple. It's described on official react doc page:
 https://reactjs.org/blog/2015/12/16/ismounted-antipattern.html
