@@ -98,7 +98,7 @@ componentWillUnmount() {
 }
 ```
 ### Cancel Token
-Second solution is so called `Cancel Token`. The idea is to have a structure which will throw an exception after unmounting and will cancel async functions which are not yet processed.
+Second solution is so called `Cancel Token`. The idea is to have a structure which will throw an exception if any action is performed after unmounting and thus to cancel functions which are not yet processed.
 
 `📁 Home.jsx`
 ```js
