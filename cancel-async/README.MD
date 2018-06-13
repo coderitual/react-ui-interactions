@@ -102,6 +102,9 @@ Second solution is so called `Cancel Token`. The idea is to have a structure whi
 
 `📁 Home.jsx`
 ```js
+class Home extends Component {
+  cancelToken = createCancelToken();
+  
   async componentDidMount() {
     try {
       await LongOperation();
