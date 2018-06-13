@@ -50,7 +50,7 @@ We get warning:
 `Warning: setState(...): Can only update a mounted or mounting component. This usually means you called setState() on an unmounted component. This is a no-op. Please check the code for the Home component.`
 
 ## 🔨 Patterns
-### Mounted Flag
+### 💡 Mounted Flag
 First solution is quite simple. It's described on official react doc page:
 https://reactjs.org/blog/2015/12/16/ismounted-antipattern.html
 
@@ -98,7 +98,7 @@ componentWillUnmount() {
   this._mounted = false;
 }
 ```
-### Cancel Token
+### 💡 Cancel Token (✔️)
 Second solution is so called `Cancel Token`. The idea is to have a structure which will throw an exception if any action is performed after unmounting. This results in cancelling functions which are not yet processed.
 
 `📁 Home.jsx`
