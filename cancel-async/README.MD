@@ -41,3 +41,8 @@ export default Home;
 ```
 
 What will happen if fetching data takes long time and in the meanwhile we will change the view?
+![Unmounted](media/unmounted.gif)
+
+We get warning:
+
+`Warning: setState(...): Can only update a mounted or mounting component. This usually means you called setState() on an unmounted component. This is a no-op. Please check the code for the Home component.`
