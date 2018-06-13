@@ -140,8 +140,6 @@ const createCancelToken = () => {
     },
     throwIfRequested() {
       if (cancelled) {
-        console.log(cancelled);
-        cancelled = false;
         throw new CancelError("Reqest cancelled.");
       }
     }
