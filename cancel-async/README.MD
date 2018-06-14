@@ -151,6 +151,13 @@ const createCancelToken = () => {
 };
 ```
 
+Of course we need `CancelError` class.
+
+`📁 CancelError.js`
+```js
+class CancelError extends Error {}
+```
+
 **We achievied the followings:**
 * Stop calling `setState` after component unmounts.
 * Prevent all later async actions to be processed (transaction).
