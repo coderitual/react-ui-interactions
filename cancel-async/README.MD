@@ -158,6 +158,20 @@ Of course we need `CancelError` class.
 class CancelError extends Error {}
 ```
 
+Or if you have problems with transpilation and the `e` instanceof `CancelError` return false this should fix it.
+
+`📁 CancelError.js`
+```js
+class CancelError {
+  constructor(message) {
+    this.name = 'CancelError';
+    this.message = message;
+    this.stack = new Error().stack;
+  }
+}
+CancelError.prototype = Object.create(Error.prototype);
+```
+
 **We achievied the followings:**
 * Stop calling `setState` after component unmounts.
 * Prevent all later async actions to be processed (transaction).
