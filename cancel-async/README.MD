@@ -51,7 +51,7 @@ We get warning:
 
 ## 🔨 Patterns
 ### 💡 Mounted Flag (❌)
-First solution is quite simple. It's described on official react doc page:
+First solution is quite simple. It's described in official react docs page:
 https://reactjs.org/blog/2015/12/16/ismounted-antipattern.html
 
 `📁 Home.jsx`
