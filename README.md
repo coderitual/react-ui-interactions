@@ -32,7 +32,7 @@ As little configuration as possible. Uses defaults wherever it can.
 Application uses modern libraries for the core things:
 - `Reach Router` Because it's straighforward, composable and does directly what it should. Nothing more.
 - `Styled Components` Simply CSS in JS with great documentation. Why not `emotion`? I don't know. If there is a reason I should know about, let me know!
-- `React Spring` Doing complex animations in react is hard enough. As the modern UI is often built upon meaningful animations, everything that encourages using them is great. The library offers lately a nice hooks API and uses direct DOM manipulations for better performance.
+- `React Spring` As the modern UI is often built upon meaningful animations, everything that encourages using them is great. The library lately offers a nice hooks API which plays directly with the DOM for better performance.
 
 ## Legal
 MIT License Copyright © 2018-present, Mike Skowronek 
