@@ -24,7 +24,7 @@ Uses `React.lazy` along with `import()` and let the webpack do the job.
 React suspense for all things except data (code splitting, media loading).
 ##### 👗 *CSS-in-JS*
 It's based on styled components for the look and feel.
-##### 🤷 *Promote defaults*
+##### 🛠 *Promote defaults*
 As little configuration as possible. Uses defaults wherever it can.
 
 ## Modern Libraries
