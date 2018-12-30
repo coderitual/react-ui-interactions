@@ -1,6 +1,6 @@
 <p align="center"><img src="https://github.com/coderitual/react-direct/blob/master/media/logo-5@2x.png"></p>
 
-# React Direct
+
 Ready-to-Use UI Solutions for React Application.
 
 ## Introduction
