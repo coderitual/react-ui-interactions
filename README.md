@@ -12,8 +12,6 @@ Embraces explicit and co-located code which is easy to delete and move from one 
 ##### 🍏 *Simple*
 Following [The Rise of "Worse is Better"](https://www.jwz.org/doc/worse-is-better.html)
 > The design must be simple, both in implementation and interface. It is more important for the interface to be simple than the implementation.
-
-This also means avoiding unnecessary abstractions. 
 ##### 🍆 *No classes*
 Only functional components.
 ##### ❣️ *Hooks*
