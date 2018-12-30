@@ -1,4 +1,4 @@
-<p align="center"><img src="https://github.com/coderitual/react-direct/blob/master/media/logo-1.png"></p>
+<p align="center"><img src="https://github.com/coderitual/react-direct/blob/master/media/logo-2.png"></p>
 
 # React Direct
 Ready-to-Use UI Solutions for React Application.
