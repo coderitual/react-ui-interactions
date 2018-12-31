@@ -3,7 +3,7 @@
 <p align="center">Simple UI Patterns for React</p>
 
 ## Introduction
-A set of UI concepts packed into one fully functional react application. The idea behind is to leverage the latest tools and tech to provide useful UI and code patterns for your project. It covers basic areas such as: __*routing, data fetching, animations & transitions, shared state*__ but also more specific UI solutions. All these topics are grouped into folders in the way which helps you find an interesting piece of code.
+A set of UI concepts packed into one fully functional react application. The idea behind is to leverage the latest tools and tech to provide useful UI and code patterns for your project. It covers basic areas such as: __routing, data fetching, animations & transitions, shared state__ but also more specific UI solutions. All these topics are grouped into folders in the way which helps you find an interesting piece of code.
 
 ## Features
 Principles which drive this project are as follows:
