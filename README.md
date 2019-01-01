@@ -30,7 +30,7 @@ As little configuration as possible. Uses defaults wherever it can.
 There are 2 ways to use this project:
 
 - Just copy & paste whatever you need.
-- Be inspired. Find UI solution you like and adapt it to your environemnt
+- Be inspired. Find UI solution you like and adapt it to your environment.
 
 ## Dependencies
 
