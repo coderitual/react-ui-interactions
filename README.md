@@ -1,6 +1,6 @@
 <p align="center"><img width="200" src="https://github.com/coderitual/react-direct/blob/master/media/logo-7@3x.png"></p>
 
-<p align="center">Simple UI Patterns for React</p>
+<p align="center">UI Patterns for React</p>
 
 ## Introduction
 A set of UI concepts packed into one fully functional react application. The idea behind is to leverage the latest tools and tech to provide useful UI and code patterns for your project. It covers basic areas such as: __routing, data fetching, animations & transitions, shared state__ but also more specific UI solutions. All these topics are grouped into folders in the way which helps you find an interesting piece of code.
@@ -26,7 +26,13 @@ It's based on styled components for the look and feel.
 ##### 🛠 *Promote defaults*
 As little configuration as possible. Uses defaults wherever it can.
 
-## Modern Libraries
+## How to Use
+There are 2 ways to use this project:
+
+- Just copy & paste whatever you need.
+- Be inspired. Find UI solution you like and adapt it to your environemnt
+
+## Dependencies
 
 Application uses modern libraries for the core things:
 - `Reach Router` Because it's straighforward, composable and does directly what it should. Nothing more.
