@@ -2,6 +2,8 @@
 
 <p align="center">UI Patterns for React</p>
 
+![](https://img.shields.io/github/license/coderitual/react-direct.svg)
+
 ## Introduction
 A set of UI concepts packed into one fully functional react application. The idea behind is to leverage the latest tools and tech to provide useful UI and code patterns for your project. It covers basic areas such as: __routing, data fetching, animations & transitions, shared state__ but also more specific UI solutions. All these topics are grouped into folders in the way which helps you find an interesting piece of code.
 
