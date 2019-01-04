@@ -33,7 +33,7 @@ It's based on styled components for the look and feel.
 ##### 🛠 *Promote defaults*
 As little configuration as possible. Uses defaults wherever it can.
 
-## How to Use
+## How to Use?
 There are 2 ways to use this project:
 
 - Just copy & paste whatever you need.
