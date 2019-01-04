@@ -10,7 +10,9 @@
 A collection of UI concepts packed into one fully functional react application. The idea behind is to leverage the latest community practices to provide useful patterns for your real-world project. It covers basic areas such as: __navigation, data fetching, animations & transitions, shared state, authentication, responsiveness__ but also more specific __UI elements__. All these topics are grouped into easy to follow folders structure.
 
 ## Motivation
-Building web application requires solving many UI problems. There are a ton of libraries that help to solve a prticular case but very often you would come up with your own solution. In that case this repository allows you to discover useful patterns for typical challenges while working on user interfaces.
+Building web application requires solving many UI problems. There are a ton of libraries that help to solve a prticular case but very often you would come up with your own solution. In that case this repository allows you to discover useful patterns for typical challenges while working on user interfaces. 
+
+It's important to note that some low level tasks still needs a library, to allow focusing on more important aspects. That's why this project is using them. They were picked very carefully thought followig requirements and the spirit of this project.
 
 ## Features
 Principles which drive this project are as follows:
@@ -41,7 +43,8 @@ There are 2 ways to use this project:
 
 ## Dependencies
 
-Application uses modern libraries for the core things:
+It's important to note that some low level tasks still needs a libraries, to allow focusing on more important aspects.They were picked very carefully though, followig requirements and the spirit of this project.
+
 - `Reach Router` Because it's straighforward, composable and does directly what it should. Nothing more.
 - `Styled Components` Simply CSS in JS with great documentation. Why not `emotion`? I don't know. If there is a reason I should know about, let me know!
 - `React Spring` As the modern UI is often built upon meaningful animations, everything that encourages using them is great. The library lately offers a nice hooks API which plays directly with the DOM for better performance.
