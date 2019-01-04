@@ -7,7 +7,7 @@
 
 ## Introduction
 
-A collection of UI concepts packed into one fully functional react application. The idea behind is to leverage the latest community practices to provide useful patterns for your real-world project. It covers basic areas such as: __routing, data fetching, animations & transitions, shared state__ but also more specific __UI elements__. All these topics are grouped into easy to follow folder structure.
+A collection of UI concepts packed into one fully functional react application. The idea behind is to leverage the latest community practices to provide useful patterns for your real-world project. It covers basic areas such as: __routing, data fetching, animations & transitions, shared state, authentication__ but also more specific __UI elements__. All these topics are grouped into easy to follow folder structure.
 
 ## Features
 Principles which drive this project are as follows:
