@@ -15,26 +15,17 @@ Building web application requires solving many UI problems. There are a ton of l
 ## Features
 Principles which drive this project are as follows:
 
-##### 🎯 *Direct*
-Embraces explicit and co-located code which is easy to delete and move from one place to another. This is an [optimization for change](https://overreacted.io/optimized-for-change/) as the change is the thing which will eventually happen. The code is direct and specific which makes it easy to copy and adapt for your needs.
-##### 🍏 *Simple*
-Following [The Rise of "Worse is Better"](https://www.jwz.org/doc/worse-is-better.html)
+* 🎯 *Direct* - Embraces explicit and co-located code which is easy to delete and move from one place to another. This is an [optimization for change](https://overreacted.io/optimized-for-change/) as the change is the thing which will eventually happen. The code is direct and specific which makes it easy to copy and adapt for your needs.
+* 🍏 *Simple* - Following [The Rise of "Worse is Better"](https://www.jwz.org/doc/worse-is-better.html)
 > The design must be simple, both in implementation and interface. It is more important for the interface to be simple than the implementation.
-##### 🍆 *No classes*
-Only functional components.
-##### ❣️ *Hooks*
-Uses hooks all the way (available as of react 16.7.0-alpha).
-##### 🖖 *Code splitting*
-Uses `React.lazy` along with `import()` and let the webpack do the job.
-##### ⏱️ *Suspense*
-React suspense for all things except data (code splitting, media loading).
-##### 👗 *CSS-in-JS*
-It's based on styled components for the look and feel.
-##### 🛠 *Promote defaults*
-As little configuration as possible. Uses defaults wherever it can.
+* 🍆 *No classes* - Only functional components.
+* ❣️ *Hooks* - Uses hooks all the way (available as of react 16.7.0-alpha).
+* 🖖 *Code splitting* - Uses `React.lazy` along with `import()` and let the webpack do the job.
+* ⏱️ *Suspense* - React suspense code splitting and media loading.
+* 💅 *CSS-in-JS* - It's based on styled components for the look and feel.
+* 📦 *Promote defaults* - As little configuration as possible. Uses defaults wherever it can.
 
 ## How to Use
-There are 2 ways to use this project:
 
 - Just copy & paste whatever you need.
 - Be inspired. Find UI solution you like and adapt it to your environment.
