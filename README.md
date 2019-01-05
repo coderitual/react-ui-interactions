@@ -1,6 +1,6 @@
 <p align="center"><img width="220" src="https://github.com/coderitual/react-direct/blob/master/media/logo-7@3x.png"></p>
 
-<p align="center">UI Interactions for React</p>
+<p align="center">Best Practices for UI Interactions in React</p>
 
 ![](https://img.shields.io/github/license/coderitual/react-direct.svg)
 ![](https://img.shields.io/badge/Project-Work%20In%20Progress-ff69b4.svg)
@@ -21,7 +21,7 @@ Principles which drive this project are as follows:
 * 🍆 **No classes** - Only functional components.
 * ❣️ **Hooks** - Uses hooks all the way (available as of react 16.7.0-alpha).
 * 🖖 **Code splitting** - Uses `React.lazy` along with `import()` and let the webpack do the job.
-* ⏱️ **Suspense** - React suspense code splitting and media loading.
+* ⏱️ **Suspense** - React suspense for code splitting.
 * 💅 **CSS-in-JS** - It's based on styled components for the look and feel.
 * 📦 **Promote defaults** - As little configuration as possible. Uses defaults wherever it can.
 
@@ -32,7 +32,7 @@ Principles which drive this project are as follows:
 
 ## Dependencies
 
-It's important to note that some low level tasks still needs a libraries to allow focusing on more important aspects. All dependencies in this project were  very carefully considering the principles mentioned earlier.
+It's important to note that some low level tasks still needs a libraries to allow focusing on more important aspects. All dependencies in this project were picked very carefully considering the principles mentioned earlier.
 
 - `Reach Router` Because it's straighforward, composable and does directly what it should. Nothing more.
 - `Styled Components` Simply CSS in JS with great documentation. Why not `emotion`? I don't know. If there is a reason I should know about, let me know!
