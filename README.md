@@ -12,8 +12,6 @@ A collection of UI concepts packed into one fully functional react application. 
 ## Motivation
 Building web application requires solving many UI problems. There are a ton of libraries that help to solve a prticular case but very often you would come up with your own solution. In that case this repository allows you to discover useful patterns for typical challenges while working on user interfaces. 
 
-It's important to note that some low level tasks still needs a library to allow focusing on more important aspects. That's why this project is using them. They were picked very carefully thought followig requirements and the spirit of this project.
-
 ## Features
 Principles which drive this project are as follows:
 
