@@ -7,7 +7,7 @@
 
 ## Introduction
 
-A collection of UI concepts packed into one fully functional react application. The idea behind is to leverage the latest community practices to provide useful patterns for your real-world project. It covers basic areas such as: __navigation, data fetching, animations & transitions, shared state, authentication, responsiveness__ but also more specific __UI elements__.
+A collection of UI concepts packed into one fully functional react application. The idea behind is to leverage the latest community practices to provide useful patterns for your real-world project. By presenting specific __UI elements__ you will learn basic and advanced solutions covering: __navigation, data fetching, animations & transitions, shared state, responsiveness__.
 
 ## Motivation
 Building web application requires solving many UI problems. There are a ton of libraries that help to solve a prticular case but very often you would come up with your own solution. In that case this repository allows you to discover useful patterns for typical challenges while working on user interfaces. As you probably have noticed, project is written in react. I just feel comfortable using it. However, I think that the solutions presented here can be successfully used in other popular frameworks like angular and vue.
