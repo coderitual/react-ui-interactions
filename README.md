@@ -17,7 +17,7 @@ Principles which drive this project are as follows:
 
 * 🎯 *Direct* - Embraces explicit and co-located code which is easy to delete and move from one place to another. This is an [optimization for change](https://overreacted.io/optimized-for-change/) as the change is the thing which will eventually happen. The code is direct and specific which makes it easy to copy and adapt for your needs.
 * 🍏 *Simple* - Following [The Rise of "Worse is Better"](https://www.jwz.org/doc/worse-is-better.html)
-> The design must be simple, both in implementation and interface. It is more important for the interface to be simple than the implementation.
+  > The design must be simple, both in implementation and interface. It is more important for the interface to be simple than the implementation.
 * 🍆 *No classes* - Only functional components.
 * ❣️ *Hooks* - Uses hooks all the way (available as of react 16.7.0-alpha).
 * 🖖 *Code splitting* - Uses `React.lazy` along with `import()` and let the webpack do the job.
