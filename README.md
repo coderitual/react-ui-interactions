@@ -2,8 +2,8 @@
 
 <p align="center">UI Inspirations for React</p>
 
-![](https://img.shields.io/github/license/coderitual/react-direct.svg)
-![](https://img.shields.io/badge/Project-Work%20In%20Progress-ff69b4.svg)
+![](https://img.shields.io/github/license/coderitual/react-ui-interactions.svg?style=flat-square)
+![](https://img.shields.io/badge/Project-Work%20In%20Progress-ff69b4.svg?style=flat-square)
 
 ## Introduction
 
