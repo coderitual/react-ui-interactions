@@ -1,6 +1,6 @@
-<p align="center"><img width="220" src="https://github.com/coderitual/react-direct/blob/master/media/logo-7@3x.png"></p>
+<p align="center"><img width="100%" src="https://github.com/coderitual/react-direct/blob/master/media/logo@3x.png"></p>
 
-<p align="center">UI Interactions for React</p>
+<p align="center">UI Inspirations for React</p>
 
 ![](https://img.shields.io/github/license/coderitual/react-direct.svg)
 ![](https://img.shields.io/badge/Project-Work%20In%20Progress-ff69b4.svg)
