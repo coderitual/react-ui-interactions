@@ -1,4 +1,4 @@
-<p align="center"><img width="100%" src="https://github.com/coderitual/react-direct/blob/master/media/logo.svg"></p>
+<p align="center"><img width="100%" src="https://github.com/coderitual/react-direct/blob/master/media/logo@3.png"></p>
 
 <p align="center">UI Inspirations for React</p>
 
