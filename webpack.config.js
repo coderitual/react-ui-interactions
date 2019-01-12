@@ -1,5 +1,7 @@
-const HtmlWebPackPlugin = require('html-webpack-plugin')
+const path = require('path')
 const ErrorOverlayPlugin = require('error-overlay-webpack-plugin')
+const CleanWebpackPlugin = require('clean-webpack-plugin')
+const HtmlWebPackPlugin = require('html-webpack-plugin')
 
 module.exports = {
   module: {
@@ -14,10 +16,15 @@ module.exports = {
     ]
   },
   plugins: [
+    new ErrorOverlayPlugin(),
+    new CleanWebpackPlugin(['dist']),
     new HtmlWebPackPlugin({
       template: './public/index.html'
-    }),
-    new ErrorOverlayPlugin()
+    })
   ],
-  devtool: 'cheap-module-source-map'
+  devtool: 'cheap-module-source-map',
+  output: {
+    filename: '[name].bundle.js',
+    path: path.resolve(__dirname, 'dist')
+  }
 }
