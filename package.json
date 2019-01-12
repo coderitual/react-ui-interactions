@@ -8,19 +8,29 @@
     "build": "webpack --mode production",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/coderitual/react-direct.git"
+  "babel": {
+    "presets": [
+      "@babel/preset-env",
+      "@babel/preset-react"
+    ]
   },
-  "author": "coderitual",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/coderitual/react-direct/issues"
-  },
-  "homepage": "https://github.com/coderitual/react-direct#readme",
   "devDependencies": {
+    "@babel/core": "^7.2.2",
+    "@babel/preset-env": "^7.2.3",
+    "@babel/preset-react": "^7.0.0",
+    "babel-loader": "^8.0.5",
     "webpack": "^4.28.4",
     "webpack-cli": "^3.2.1",
     "webpack-dev-server": "^3.1.14"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/coderitual/react-ui-interactions.git"
+  },
+  "bugs": {
+    "url": "https://github.com/coderitual/react-ui-interactions/issues"
+  },
+  "homepage": "https://github.com/coderitual/react-ui-interactions#readme",
+  "author": "coderitual",
+  "license": "MIT"
 }
