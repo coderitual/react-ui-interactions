@@ -12,8 +12,7 @@ A collection of UI concepts packed into one fully functional react application. 
 ## Motivation
 Building web application requires solving many UI problems. There are a ton of libraries that help to solve a prticular case but very often you would come up with your own solution. In that case this repository allows you to discover useful patterns for typical challenges while working on user interfaces. As you probably have noticed, project is written in react. I just feel comfortable using it. However, I think that the solutions presented here can be successfully used in other component based frameworks.
 
-## Features
-Principles which drive this project are as follows:
+## Principles
 
 * 🎯 **Direct** - Embraces explicit and co-located code which is **easy to delete** and move from one place to another. This is an [optimization for change](https://overreacted.io/optimized-for-change/) as the change is the thing which will eventually happen. The code is direct and specific which makes it easy to copy and adapt for your needs.
 * 🍏 **Simple** - Following [The Rise of "Worse is Better"](https://www.jwz.org/doc/worse-is-better.html)
