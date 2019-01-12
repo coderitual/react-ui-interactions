@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/coderitual/react-direct#readme",
   "devDependencies": {
-    "webpack": "^4.28.4"
+    "webpack": "^4.28.4",
+    "webpack-cli": "^3.2.1"
   }
 }
