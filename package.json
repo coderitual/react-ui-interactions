@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/coderitual/react-direct/issues"
   },
-  "homepage": "https://github.com/coderitual/react-direct#readme"
+  "homepage": "https://github.com/coderitual/react-direct#readme",
+  "devDependencies": {
+    "webpack": "^4.28.4"
+  }
 }
