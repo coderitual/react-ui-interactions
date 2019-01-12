@@ -12,5 +12,9 @@ module.exports = {
       }
     ]
   },
-  plugins: [new HtmlWebPackPlugin()]
+  plugins: [
+    new HtmlWebPackPlugin({
+      template: './public/index.html'
+    })
+  ]
 }
