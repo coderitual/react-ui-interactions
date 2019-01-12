@@ -29,6 +29,7 @@
       "@babel/preset-react"
     ]
   },
+  "browserslist": "> 0.25%, not dead",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/coderitual/react-ui-interactions.git"
