@@ -32,5 +32,9 @@
   },
   "homepage": "https://github.com/coderitual/react-ui-interactions#readme",
   "author": "coderitual",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "react": "^16.8.0-alpha.0",
+    "react-dom": "^16.8.0-alpha.0"
+  }
 }
