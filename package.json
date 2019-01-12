@@ -4,7 +4,7 @@
   "description": "Ready-to-Use UI Solutions for React Application",
   "main": "index.js",
   "scripts": {
-    "start": "webpack-dev-server --config ./webpack.config.js --mode development",
+    "start": "webpack-dev-server --open --mode development",
     "build": "webpack --mode production",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
