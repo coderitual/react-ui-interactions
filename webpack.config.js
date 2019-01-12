@@ -1,4 +1,5 @@
 const HtmlWebPackPlugin = require('html-webpack-plugin')
+const ErrorOverlayPlugin = require('error-overlay-webpack-plugin')
 
 module.exports = {
   module: {
@@ -15,6 +16,8 @@ module.exports = {
   plugins: [
     new HtmlWebPackPlugin({
       template: './public/index.html'
-    })
-  ]
+    }),
+    new ErrorOverlayPlugin()
+  ],
+  devtool: 'cheap-module-source-map'
 }
