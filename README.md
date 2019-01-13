@@ -27,16 +27,17 @@ Building web application requires solving many UI problems. There are a ton of l
 
 ## How to Use
 
-- Just copy & paste whatever you need.
-- Be inspired. Find UI solution you like and adapt it to your environment.
+* Just copy & paste whatever you need.
+* Be inspired. Find UI solution you like and adapt it to your environment.
 
 ## Dependencies
 
 It's important to note that some low level tasks still need a libraries to allow focusing on more important aspects. All dependencies in this project were picked very carefully considering the principles mentioned earlier.
 
-- `Reach Router` Because it's straighforward, composable and does directly what it should. Nothing more.
-- `Styled Components` Simply CSS in JS with great documentation. Why not `emotion`? I don't know. If there is a reason I should know about, let me know!
-- `React Spring` As the modern UI is often built upon meaningful animations, everything that encourages using them is great. The library lately offers a nice hooks API which plays directly with the DOM for better performance.
+* `Reach Router` Because it's straighforward, composable and does directly what it should. Nothing more.
+* `Styled Components` Simply CSS in JS with great documentation. Why not `emotion`? I don't know. If there is a reason I should know about, let me know!
+* `React Spring` As the modern UI is often built upon meaningful animations, everything that encourages using them is great. The library lately offers a nice hooks API which plays directly with the DOM for better performance.
 
 ## Legal
-MIT License Copyright © 2019-present, Mike Skowronek 
+
+MIT License Copyright © 2019-present, Mike Skowroneks
