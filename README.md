@@ -5,7 +5,7 @@
 ![](https://img.shields.io/github/license/coderitual/react-ui-interactions.svg?style=flat-square)
 ![](https://img.shields.io/badge/Project-Work%20In%20Progress-ff69b4.svg?style=flat-square)
 
-## Introduction
+# React UI Interactions
 
 A collection of UI concepts packed into one fully functional react application. The idea behind is to leverage the latest community practices to provide useful patterns for your real-world project. By presenting specific __UI elements__ you will learn basic and advanced solutions covering: __navigation, data fetching, animations & transitions, shared state, responsiveness__.
 
