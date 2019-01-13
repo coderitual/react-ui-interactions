@@ -32,7 +32,7 @@ Building web application requires solving many UI problems. There are a ton of l
 
 ## Dependencies
 
-It's important to note that some low level tasks still needs a libraries to allow focusing on more important aspects. All dependencies in this project were picked very carefully considering the principles mentioned earlier.
+It's important to note that some low level tasks still need a libraries to allow focusing on more important aspects. All dependencies in this project were picked very carefully considering the principles mentioned earlier.
 
 - `Reach Router` Because it's straighforward, composable and does directly what it should. Nothing more.
 - `Styled Components` Simply CSS in JS with great documentation. Why not `emotion`? I don't know. If there is a reason I should know about, let me know!
