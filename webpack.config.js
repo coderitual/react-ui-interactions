@@ -17,14 +17,14 @@ module.exports = {
     ]
   },
   plugins: [
-    new ErrorOverlayPlugin(),
     new CleanWebpackPlugin(['dist']),
-    new HtmlWebPackPlugin({
-      template: './public/index.html'
-    }),
+    new ErrorOverlayPlugin(),
     new WorkboxPlugin.GenerateSW({
       clientsClaim: true,
       skipWaiting: true
+    }),
+    new HtmlWebPackPlugin({
+      template: './public/index.html'
     })
   ],
   devtool: 'cheap-module-source-map',
