@@ -40,4 +40,4 @@ It's important to note that some low level tasks still need a libraries to allow
 
 ## Legal
 
-MIT License Copyright © 2019-present, Mike Skowroneks
+MIT License Copyright © 2019-present, Mike Skowronek
