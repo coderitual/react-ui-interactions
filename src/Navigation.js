@@ -4,8 +4,8 @@ import { Link } from '@reach/router'
 export default () => {
   return (
     <nav>
-      <Link>Home</Link>
-      <Link>About</Link>
+      <Link to='/'>Home</Link>
+      <Link to='about'>About</Link>
     </nav>
   )
 }
