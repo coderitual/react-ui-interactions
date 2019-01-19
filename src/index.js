@@ -3,10 +3,7 @@ import ReactDOM from 'react-dom'
 
 const title = 'Hello React UI Interactions'
 
-ReactDOM.render(
-  <div className='application'>{title}</div>,
-  document.getElementById('app')
-)
+ReactDOM.render(<div className='application'>{title}</div>, document.getElementById('app'))
 
 if ('serviceWorker' in navigator) {
   window.addEventListener('load', () => {
