@@ -1,9 +1,34 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
+import { createGlobalStyle, ThemeProvider } from 'styled-components'
+import { Router } from '@reach/router'
+import Navigation from './Navigation'
+import HomePage from './HomePage'
+import AboutPage from './AboutPage'
 
-const title = 'Hello React UI Interactions'
+const theme = {
+  fontFamily: 'Helvetica Neue'
+}
 
-ReactDOM.render(<div className='application'>{title}</div>, document.getElementById('app'))
+const GlobalStyle = createGlobalStyle`
+  body {
+    font-family: ${props => props.theme.fontFamily};
+  }
+`
+
+ReactDOM.render(
+  <ThemeProvider theme={theme}>
+    <React.Fragment>
+      <Navigation />
+      <Router>
+        <HomePage path='/' />
+        <AboutPage path='about' />
+      </Router>
+      <GlobalStyle />
+    </React.Fragment>
+  </ThemeProvider>,
+  document.getElementById('app')
+)
 
 if ('serviceWorker' in navigator) {
   window.addEventListener('load', () => {
