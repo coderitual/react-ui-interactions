@@ -19,17 +19,10 @@ module.exports = {
   plugins: [
     new CleanWebpackPlugin(['dist']),
     new ErrorOverlayPlugin(),
-    new WorkboxPlugin.GenerateSW({
-      clientsClaim: true,
-      skipWaiting: true
-    }),
-    new HtmlWebPackPlugin({
-      template: './public/index.html'
-    })
+    new WorkboxPlugin.GenerateSW({ clientsClaim: true, skipWaiting: true }),
+    new HtmlWebPackPlugin({ template: './public/index.html' })
   ],
   devtool: 'cheap-module-source-map',
-  output: {
-    filename: '[name].[hash].js',
-    path: path.resolve(__dirname, 'dist')
-  }
+  devServer: { historyApiFallback: true },
+  output: { filename: '[name].[hash].js', path: path.resolve(__dirname, 'dist') }
 }
